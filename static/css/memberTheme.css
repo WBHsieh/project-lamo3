@@ -1,0 +1,269 @@
+@charset "UTF-8";
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    max-width: 1920px;
+    min-width:1024px;
+    padding-top: 140px;
+    background: url(../images/demo/privacy.jpg) 50% 0 no-repeat;
+    margin: 0 auto;
+}
+
+table {
+    border-spacing: 0;
+}
+
+.memberTheme {
+    position: relative;
+    width: 100%;
+    height: 775px;
+    padding-top: 85px;
+}
+
+.memberTheme>input {
+    clear: left;
+    width: 51px;
+    height: 47px;
+    background: url(http://photo.lamo3.com.tw/eshop/common/close-button.png) no-repeat;
+    border: 0 none;
+    margin: -50px 0 0 40px;
+    cursor: pointer;
+}
+
+.memberTheme.privacy {
+    display: none;
+    position: absolute;
+    max-width: 1920px;
+    min-width:1024px;
+}
+
+.memberTheme>.privacyBox,.memberTheme>.loginBox {
+    width: 716px;
+    font: 400 15px/25px "微軟正黑體";
+}
+
+.memberTheme>.privacyBox,.memberTheme>.loginBox>div {
+    padding: 27px 32px 23px;
+    background: rgba(255,255,255,.3);
+    border-radius: 10px;
+    box-shadow: .5px 3px 5px #B5B1AE;
+    margin: 0 auto;
+}
+
+.memberTheme>.privacyBox>h1,.memberTheme>.privacyBox>h2,.memberTheme>.privacyBox>h3 {
+    font-size: 15px;
+}
+
+.memberTheme>.privacyBox>h1 {
+    width: 266px;
+    height: 44px;
+    text-indent: -9999px;
+    background: url(http://photo.lamo3.com.tw/eshop/member/agreement-logo.png) no-repeat;
+    margin: 0 auto 32px;
+}
+
+.memberTheme>.privacyBox>h2 {
+    margin-bottom: 14px;
+}
+
+.memberTheme>.privacyBox>h3 {
+    font-weight: 600;
+    line-height: 20px;
+    margin: 12px 0 2px 2px;
+}
+
+.memberTheme>.privacyBox>h3:before {
+    content: "-";
+    margin-right: 2px;
+}
+
+.memberTheme>.privacyBox>ul>li{
+    margin-left: 21px;
+    list-style-type: octal;
+}
+
+.memberTheme>.privacyBox>.agree {
+    display: block;
+    width: 122px;
+    height: 33px;
+    text-indent: -9999px;
+    background: url(http://photo.lamo3.com.tw/eshop/member/agree.png) no-repeat;
+    margin: 31px auto 0;
+}
+
+.memberTheme>.loginBox {
+    width: 780px;
+    margin: 0 auto;
+}
+
+.memberTheme>.loginBox>div {
+    float: left;
+    width: 280px;
+    padding: 27px 30px 23px;
+}
+
+.memberTheme>.loginBox input {
+    line-height: 36px;
+    padding: 0;
+    border: 0 none;
+}
+
+.memberTheme>.loginBox>.loginL {
+    margin-right: 100px;
+}
+
+.memberTheme>.loginBox>.loginL>h1,.memberTheme>.loginBox>.loginL table b,.memberTheme>.loginBox>.loginR table b,.memberTheme>.loginBox>.loginR>h2 {
+    text-indent: -9999px;
+    font-size: 0;
+}
+
+.memberTheme>.loginBox>.loginL table b,.memberTheme>.loginBox>.loginR table b {
+    display: block;
+    line-height: 40px;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    margin: 0 7px 0 12px;
+}
+
+.memberTheme>.loginBox>.loginL>table tr,.memberTheme>.loginBox>.loginR>table tr {
+    float: left;
+    width: 280px;
+    height: 40px;
+    background-image: url(http://photo.lamo3.com.tw/eshop/member/input-background.png);
+    margin-bottom: 20px;
+}
+
+.memberTheme>.loginBox p,.memberTheme>.loginBox a {
+    color: #000;
+    font: 400 11.5px/25px "微軟正黑體";
+}
+
+.memberTheme>.loginBox>.loginL>h1 {
+    width: 74px;
+    height: 17px;
+    background-image: url(http://photo.lamo3.com.tw/eshop/member/sign-in-title.png);
+    margin-bottom: 30px;
+}
+
+.memberTheme>.loginBox input[type="checkbox"],.memberTheme>.loginBox input[type="checkbox"] + label {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.memberTheme>.loginBox input[type="checkbox"] {
+    position: relative;
+    z-index: 2;
+    opacity: 0;
+}
+
+.memberTheme>.loginBox input[type="checkbox"] + label {
+    position: absolute;
+    display: inline-block;
+    background: url(http://photo.lamo3.com.tw/eshop/member/checkbox.png) no-repeat;
+    margin: 3px 0 0 -21px;
+}
+
+.memberTheme>.loginBox input[type="checkbox"]:checked + label {
+    background: url(http://photo.lamo3.com.tw/eshop/member/checkbox-checked.png) no-repeat
+}
+
+.memberTheme>.loginBox>.loginL .lt1 b {
+    width: 48px;
+    background-image: url(http://photo.lamo3.com.tw/eshop/member/email-text.png);
+}
+
+.memberTheme>.loginBox>.loginL .lt2 b {
+    width: 66px;
+    background-image: url(http://photo.lamo3.com.tw/eshop/member/password-text.png);
+}
+
+.memberTheme>.loginBox>.loginL .loginBn {
+    display: block;
+    width: 165px;
+    height: 46px;
+    background-image: url(http://photo.lamo3.com.tw/eshop/member/sign-in-button.png);
+    margin: 0 auto 48px;
+}
+
+.memberTheme>.loginBox p {
+    padding: 5px 10px;
+    margin-bottom: 25px;
+}
+
+.memberTheme>.loginBox>.loginL p a {
+    float: right;
+    text-decoration: none;
+}
+
+.memberTheme>.loginBox>.loginL p a:hover,.memberTheme>.loginBox>.loginR p:hover span {
+    text-decoration: underline;
+}
+
+.memberTheme>.loginBox>.loginL .style1 {
+    display: block;
+    width: 277px;
+    height: 49px;
+    background-image: url(http://photo.lamo3.com.tw/eshop/member/separate.png);
+    margin-bottom: 46px;
+}
+
+.memberTheme>.loginBox>.loginL .fbLoginBn {
+    display: block;
+    width: 282px;
+    height: 43px;
+    background-image: url(http://photo.lamo3.com.tw/eshop/member/signin-with-facebook.png);
+}
+
+.memberTheme>.loginBox>.loginL>b {
+    display: block;
+    margin-bottom: 24px;
+}
+
+.memberTheme>.loginBox>.loginR>h2 {
+    width: 94px;
+    height: 17px;
+    background-image: url(http://photo.lamo3.com.tw/eshop/member/register-title.png);
+    margin-bottom: 30px;
+}
+
+.memberTheme>.loginBox>.loginR table b {
+    width: 66px;
+}
+
+.memberTheme>.loginBox>.loginR .rt1 b {
+    background-image: url(http://photo.lamo3.com.tw/eshop/member/account-text.png);
+}
+
+.memberTheme>.loginBox>.loginR .rt2 b {
+    background-image: url(http://photo.lamo3.com.tw/eshop/member/password-text.png);
+}
+
+.memberTheme>.loginBox>.loginR .rt3 b {
+    background-image: url(http://photo.lamo3.com.tw/eshop/member/confirm-password-text.png);
+}
+
+.memberTheme>.loginBox>.loginR .rt4 b {
+    background-image: url(http://photo.lamo3.com.tw/eshop/member/email-text.png);
+}
+
+.memberTheme>.loginBox>.loginR .rt5 b {
+    background-image: url(http://photo.lamo3.com.tw/eshop/member/phone-text.png);
+}
+
+.memberTheme>.loginBox>.loginR .rt6 b {
+    background-image: url(http://photo.lamo3.com.tw/eshop/member/birthday-text.png);
+}
+
+.memberTheme>.loginBox>.loginR .registration {
+    display: block;
+    width: 162px;
+    height: 43px;
+    background-image: url(http://photo.lamo3.com.tw/eshop/member/register-button.png);
+    margin: 0 auto;
+}
